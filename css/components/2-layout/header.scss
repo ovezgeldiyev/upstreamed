@@ -1,0 +1,97 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  .auto__container {
+    max-width: 1860px;
+  }
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    animation-name: sticky;
+    animation-duration: 0.4s;
+    box-shadow: 0px 4px 4px 0px #00000021;
+    background-color: $main;
+  }
+  &__inner {
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+// 1450px
+@mixin header-xxxxlg-xxxxxlg {
+  .header {
+    &__inner {
+      padding: 28px 0;
+    }
+  }
+}
+// 1180px
+@mixin header-xlg-xxlg {
+  .header {
+    &__inner {
+      padding: 24px 0;
+      &-logo {
+        width: 170px;
+      }
+    }
+  }
+}
+// 930px
+@mixin header-md-lg {
+  .header {
+    // &__inner {
+    //   padding: 35px 0;
+    //   &-logo {
+    //     width: 230px;
+    //   }
+    // }
+  }
+}
+// 650px
+@mixin header-sm-md-extra {
+  .header {
+    &__inner {
+      padding: 24px 0;
+      &-logo {
+        width: 170px;
+      }
+    }
+  }
+}
+// 540px
+@mixin header-xsm-sm {
+  .header {
+    &__inner {
+      padding: 20px 0;
+      &-logo {
+        width: 120px;
+      }
+    }
+  }
+}
+@keyframes sticky {
+  0% {
+    top: -60px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
+}

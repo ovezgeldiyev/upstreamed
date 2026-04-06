@@ -1,0 +1,438 @@
+// 1700px
+@include xxxxxxlg-xxxxxxxlg {
+  .auto__container {
+    max-width: 1320px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 75px;
+    &.big {
+      font-size: 80px;
+    }
+    &.lg {
+      font-size: 90px;
+    }
+    &.xlg {
+      font-size: 90px;
+    }
+  }
+  h3 {
+    font-size: 56px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  h5 {
+    &.big {
+      font-size: 30px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  p {
+    &.big {
+      font-size: 16px;
+    }
+    &.lg {
+      font-size: 18px;
+    }
+    &.xlg {
+      font-size: 25px;
+    }
+  }
+  .button {
+    &.primary {
+      padding: 20px 40px;
+      font-size: 20px;
+    }
+    &.secondary {
+      padding: 20px 40px;
+      font-size: 20px;
+    }
+  }
+  @include hero-xxxxxxlg-xxxxxxxlg;
+  @include treatment-xxxxxxlg-xxxxxxxlg;
+  @include work-xxxxxxlg-xxxxxxxlg;
+  @include features-xxxxxxlg-xxxxxxxlg;
+}
+// 1560px
+@include xxxxxlg-xxxxxxlg {
+  .auto__container {
+    max-width: 1200px;
+  }
+  // @include hero-xxxxxlg-xxxxxxlg;
+}
+// 1450px
+@include xxxxlg-xxxxxlg {
+  .auto__container {
+    max-width: 1140px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 65px;
+    &.big {
+      font-size: 70px;
+    }
+    &.lg {
+      font-size: 80px;
+    }
+    &.xlg {
+      font-size: 80px;
+    }
+  }
+  h4 {
+    font-size: 35px;
+  }
+  p {
+    &.big {
+      font-size: 15px;
+    }
+  }
+  .button {
+    &.primary {
+      padding: 16px 30px;
+      font-size: 18px;
+    }
+    &.secondary {
+      padding: 16px 30px;
+      font-size: 18px;
+    }
+    &.uniq {
+      font-size: 18px;
+      padding: 13px 40px;
+    }
+  }
+  @include header-xxxxlg-xxxxxlg;
+  @include hero-xxxxlg-xxxxxlg;
+  @include treatment-xxxxlg-xxxxxlg;
+  @include work-xxxxlg-xxxxxlg;
+  @include impact-xxxxlg-xxxxxlg;
+  @include features-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h2 {
+    font-size: 55px;
+    &.big {
+      font-size: 60px;
+    }
+    &.lg {
+      font-size: 70px;
+    }
+    &.xlg {
+      font-size: 70px;
+    }
+  }
+  h3 {
+    font-size: 48px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  h6 {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    &.sm {
+      font-size: 14px;
+    }
+  }
+  p {
+    &.lg {
+      font-size: 16px;
+    }
+    &.xlg {
+      font-size: 20px;
+    }
+  }
+
+  @include hero-xxxlg-xxxxlg;
+  @include diagnose-xxxlg-xxxxlg;
+  @include about-xxxlg-xxxxlg;
+  @include work-xxxlg-xxxxlg;
+  @include impact-xxxlg-xxxxlg;
+  @include features-xxxlg-xxxxlg;
+  @include footer-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 45px;
+    &.big {
+      font-size: 50px;
+    }
+    &.lg {
+      font-size: 60px;
+    }
+    &.xlg {
+      font-size: 60px;
+    }
+  }
+  h6 {
+    font-size: 14px;
+  }
+  body {
+    font-size: 14px;
+    line-height: 130%;
+  }
+  .button {
+    &.primary {
+      padding: 14px 24px;
+      font-size: 15px;
+    }
+    &.secondary {
+      padding: 14px 24px;
+      font-size: 15px;
+    }
+  }
+  .auto__container {
+    padding: 0 30px;
+  }
+  @include header-xlg-xxlg;
+  @include hero-xlg-xxlg;
+  @include treatment-xlg-xxlg;
+  @include diagnose-xlg-xxlg;
+  @include impact-xlg-xxlg;
+  @include footer-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 35px;
+    &.big {
+      font-size: 40px;
+    }
+    &.lg {
+      font-size: 50px;
+    }
+    &.xlg {
+      font-size: 50px;
+    }
+  }
+  .button {
+    &.sm {
+      padding: 14px 20px;
+      font-size: 14px;
+    }
+  }
+  @include hero-lg-xlg;
+}
+// 930px
+@include md-lg {
+  h1 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 42px;
+    &.ex {
+      line-height: 100%;
+      font-size: 240px;
+    }
+  }
+  h5 {
+    &.big {
+      font-size: 25px;
+    }
+  }
+  h6 {
+    &.sm {
+      font-size: 16px;
+    }
+  }
+  @include header-md-lg;
+  @include hero-md-lg;
+  @include treatment-md-lg;
+  @include diagnose-md-lg;
+  @include about-md-lg;
+  @include work-md-lg;
+  @include impact-md-lg;
+  @include features-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  @include hero-sm-md;
+  @include about-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    &.big {
+      font-size: 40px;
+    }
+    &.lg {
+      font-size: 40px;
+    }
+    &.xlg {
+      font-size: 40px;
+    }
+  }
+  h3 {
+    font-size: 34px;
+    &.ex {
+      font-size: 200px;
+    }
+  }
+  @include header-sm-md-extra;
+  @include hero-sm-md-extra;
+  @include treatment-sm-md-extra;
+  @include diagnose-sm-md-extra;
+  @include about-sm-md-extra;
+  @include work-sm-md-extra;
+  @include impact-sm-md-extra;
+  @include features-sm-md-extra;
+  @include footer-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 40px;
+    &.big {
+      font-size: 30px;
+    }
+    &.lg {
+      font-size: 45px;
+    }
+    &.xlg {
+      font-size: 50px;
+    }
+  }
+  h3 {
+    font-size: 28px;
+    &.ex {
+      font-size: 155px;
+    }
+  }
+  p {
+    &.xlg {
+      font-size: 16px;
+    }
+    &.lg {
+      font-size: 18px;
+    }
+    &.big {
+      font-size: 16px;
+    }
+    &.ex {
+      font-size: 15px;
+    }
+  }
+  .button {
+    &.uniq {
+      font-size: 14px;
+      padding: 8px 22px;
+    }
+    &.primary {
+      padding: 14px 24px;
+      font-size: 15px;
+    }
+    &.secondary {
+      padding: 14px 24px;
+      font-size: 15px;
+    }
+  }
+  @include header-xsm-sm;
+  @include hero-xsm-sm;
+  @include treatment-xsm-sm;
+  @include diagnose-xsm-sm;
+  @include about-xsm-sm;
+  @include work-xsm-sm;
+  @include impact-xsm-sm;
+  @include features-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 30px;
+    &.big {
+      font-size: 25px;
+    }
+    &.lg {
+      font-size: 30px;
+    }
+    &.xlg {
+      font-size: 38px;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 130%;
+    span {
+      font-size: 24px;
+    }
+    &.ex {
+      font-size: 135px;
+    }
+  }
+  h5 {
+    font-size: 18px;
+    &.big {
+      font-size: 28px;
+    }
+  }
+  h6 {
+    font-size: 13px;
+    &.sm {
+      font-size: 14px;
+    }
+  }
+  p {
+    &.xlg {
+      font-size: 12px;
+    }
+    &.lg {
+      font-size: 14px;
+    }
+    &.big {
+      font-size: 13px;
+    }
+    &.ex {
+      font-size: 12px;
+    }
+  }
+  body {
+    font-size: 14px;
+  }
+  @include hero-xxsm-xsm;
+  @include treatment-xxsm-xsm;
+  @include work-xxsm-xsm;
+  @include impact-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
